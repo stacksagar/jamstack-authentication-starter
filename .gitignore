@@ -9,6 +9,7 @@ lerna-debug.log*
 
 dist
 dist-ssr
+
 *.local
 
 # Editor directories and files
