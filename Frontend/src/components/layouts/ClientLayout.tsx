@@ -8,12 +8,10 @@ export default function ClientLayout({
 }) {
   return (
     <>
-      <Header />
+      <Header container={true} />
 
-      <div className={`take_screen`}>
-        <div className="px-3 sm:px-5 mx-auto w-full h-full container space-y-12">
-          {children}
-        </div>
+      <div className="px-2 sm:px-4 py-6 mx-auto w-full h-full container space-y-12 min-h-screen">
+        {children}
       </div>
 
       <Footer />

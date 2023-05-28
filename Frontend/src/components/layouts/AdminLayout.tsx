@@ -1,3 +1,4 @@
+import AdminSidebar from "../Others/AdminSidebar/AdminSidebar";
 import Header from "../Others/Header/Header";
 
 export default function AdminLayout({
@@ -6,10 +7,12 @@ export default function AdminLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <>
       <Header />
-      <br />
-      {children}
-    </div>
+      <div className="flex w-full">
+        <AdminSidebar />
+        <div className="w-full p-4">{children}</div>
+      </div>
+    </>
   );
 }

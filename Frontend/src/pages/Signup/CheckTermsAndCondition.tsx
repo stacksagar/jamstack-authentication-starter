@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import CheckInput from "../../components/common/Forms/CheckInput";
-import Icons, { Icon } from "../../components/common/Icons/Icons";
+import Checkbox from "../../components/common/Forms/Checkbox";
+import Icons, { Icon } from "../../components/common/Icons/FIcons";
 
 interface propTypes extends React.InputHTMLAttributes<HTMLInputElement> {
   error?: any;
@@ -11,7 +11,7 @@ const CheckTermsAndCondition = ({ error, touched, ...rest }: propTypes) => {
   return (
     <div>
       <div className="flex items-center">
-        <CheckInput {...rest} />
+        <Checkbox {...rest} />
         <div className="ml-3 text-sm">
           <label
             htmlFor="terms"

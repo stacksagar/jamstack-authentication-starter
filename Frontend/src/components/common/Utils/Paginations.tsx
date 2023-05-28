@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { useState } from "react";
-import Icons, { Icon } from "../Icons/Icons";
+import Icons, { Icon } from "../Icons/FIcons";
 
 const Btn = ({ children, page, currentPage, ...props }: any) => (
   <button

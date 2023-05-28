@@ -1,5 +1,3 @@
-import React from "react";
-
 const DefaultSketelon = () => {
   return (
     <div role="status" className="w-full animate-pulse space-y-4">

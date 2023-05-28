@@ -1,5 +1,5 @@
 import { useAuth } from "../../../contexts/auth";
-import Icons, { Icon } from "../Icons/Icons";
+import Icons, { Icon } from "../Icons/FIcons";
 
 const ErrorMessage = () => {
   const { auth } = useAuth();

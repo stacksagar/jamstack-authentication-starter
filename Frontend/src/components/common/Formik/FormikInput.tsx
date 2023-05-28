@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Input from "../Forms/Input";
 import Label from "../Forms/Label";
 import PasswordInput from "../Forms/PasswordInput";
-import Icons, { Icon } from "../Icons/Icons";
+import Icons, { Icon } from "../Icons/FIcons";
 
 interface propTypes extends React.InputHTMLAttributes<HTMLInputElement> {
   label?: string;

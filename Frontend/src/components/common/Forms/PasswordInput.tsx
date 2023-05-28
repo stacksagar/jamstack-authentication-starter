@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Icons, { Icon } from "../Icons/Icons";
+import Icons, { Icon } from "../Icons/FIcons";
 
 interface propTypes extends React.InputHTMLAttributes<HTMLInputElement> {}
 

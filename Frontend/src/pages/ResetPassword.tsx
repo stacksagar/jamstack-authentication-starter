@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { axios_req } from "../api/axios_req";
 import Button from "../components/common/Buttons/Button";
 import FormikInput from "../components/common/Formik/FormikInput";
-import Icons, { Icon } from "../components/common/Icons/Icons";
+import Icons, { Icon } from "../components/common/Icons/FIcons";
 import ClientLayout from "../components/layouts/ClientLayout";
 import reset_pass_validate from "../validation/formik/reset_pass_validate";
 

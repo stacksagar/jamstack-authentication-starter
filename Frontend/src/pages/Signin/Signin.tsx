@@ -5,7 +5,7 @@ import { axios_private } from "../../api/axios_req";
 import Button from "../../components/common/Buttons/Button";
 import FormikInput from "../../components/common/Formik/FormikInput";
 import Checkbox from "../../components/common/Forms/Checkbox";
-import Icons, { Icon } from "../../components/common/Icons/Icons";
+import Icons, { Icon } from "../../components/common/Icons/FIcons";
 import ErrorMessage from "../../components/common/Utils/ErrorMessage";
 import ClientLayout from "../../components/layouts/ClientLayout";
 import { useAuth } from "../../contexts/auth";

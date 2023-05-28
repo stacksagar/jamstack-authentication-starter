@@ -1,5 +1,5 @@
-import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
+import Button from "../Buttons/Button";
 
 const AdminSectionTitle = ({ to, title }: { to?: string; title?: string }) => {
   return (

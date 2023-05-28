@@ -1,8 +1,8 @@
-import DefaultSketelon from "../Skeletons/DefaultSketelon";
-import Editor from "suneditor-react";
-import SunEditorCore from "suneditor/src/lib/core";
 import { useRef } from "react";
+import Editor from "suneditor-react";
 import { SunEditorReactProps } from "suneditor-react/dist/types/SunEditorReactProps";
+import SunEditorCore from "suneditor/src/lib/core";
+import DefaultSketelon from "../common/Skeletons/DefaultSketelon";
 
 interface props extends SunEditorReactProps {
   loading?: boolean;

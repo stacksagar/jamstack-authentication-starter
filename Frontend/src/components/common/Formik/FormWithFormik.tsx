@@ -1,11 +1,11 @@
+import { useFormik } from "formik";
+import React from "react";
+import setFormikField from "../../../utils/formik/setFormikField";
+import onChangeSetURL from "../../../utils/onChangeSetURL";
 import Button from "../Buttons/Button";
 import FileInput from "../Forms/FileInput";
 import FormikInput from "./FormikInput";
 import FormikTextarea from "./FormikTextarea";
-import React from "react";
-import onChangeSetURL from "../../../utils/onChangeSetURL";
-import setFormikField from "../../../utils/formik/setFormikField";
-import { useFormik } from "formik";
 
 interface MyFormikProps {
   fields?: {

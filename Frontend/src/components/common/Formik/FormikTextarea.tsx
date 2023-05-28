@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Label from "../Forms/Label";
 import Textarea from "../Forms/Textarea";
-import Icons, { Icon } from "../Icons/Icons";
+import Icons, { Icon } from "../Icons/FIcons";
 
 interface propTypes extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   label?: string;

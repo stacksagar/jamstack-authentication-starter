@@ -1,16 +1,21 @@
+import { useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
 import ApplicationWrapper from "./components/layouts/ApplicationWrapper";
-import NotFound from "./pages/NotFound";
-import PersistLogin from "./middlewares/PersistLogin";
 import RequireAuth from "./middlewares/AuthorizeRoutes";
+import PersistLogin from "./middlewares/PersistLogin";
 import UnAuthorizeRoutes from "./middlewares/UnAuthorizeRoutes";
+import NotFound from "./pages/NotFound";
 import min_admin_pages from "./routes/min_admin_pages";
 import min_authorize_pages from "./routes/min_authorize_pages";
 import min_moderator_pages from "./routes/min_moderator_pages";
 import public_pages from "./routes/public_pages";
 import unathorize_pages from "./routes/unathorize_pages";
-import { Route, Routes } from "react-router-dom";
 
 export default function App() {
+  useEffect(() => {
+    import("preline");
+  }, []);
+
   return (
     <ApplicationWrapper>
       <Routes>

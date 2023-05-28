@@ -1,7 +1,3 @@
-import AdminOnly from "../pages/Admin/AdminOnly";
-
-const min_admin_pages = {
-  "admin-only": AdminOnly,
-};
+const min_admin_pages = {};
 
 export default min_admin_pages;

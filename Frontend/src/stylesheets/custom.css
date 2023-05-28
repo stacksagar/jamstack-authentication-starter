@@ -1,0 +1,75 @@
+/* SunEditor Custom Styles */
+.sun-editor {
+  border-radius: 4px !important;
+  overflow: hidden;
+}
+.dark .sun-editor {
+  border: 1px solid #555555 !important;
+}
+
+.dark .se-wrapper-inner.se-wrapper-wysiwyg.sun-editor-editable {
+  background: #1f2937 !important;
+  color: white !important;
+}
+
+.dark .se-btn-tray {
+  background: #111827;
+}
+
+.dark .se-btn-tray * {
+  color: white !important;
+}
+
+.dark .se-btn-tray button:hover {
+  background: #6f68e1 !important;
+  color: white !important;
+}
+
+.dark .se-btn-module.se-btn-module-border {
+  border-color: #55555555 !important;
+}
+
+.dark .sun-editor .se-toolbar {
+  outline: 0px solid #000000 !important;
+  box-shadow: 0px 0px 5px 0px #55555523;
+}
+
+.dark .sun-editor .se-resizing-bar {
+  background: #e5d7d7;
+  border: 1px solid transparent !important;
+}
+
+.dynamic_page .se-resizing-bar {
+  display: none !important;
+  height: auto !important;
+}
+
+.dynamic_page .sun-editor {
+  border: transparent !important;
+  border-radius: 0px !important;
+}
+
+.dark .rti--container {
+  background: #111827;
+}
+
+.rti--container span {
+  border-radius: 4px !important;
+  padding: 3px 6px !important;
+}
+.rti--container input {
+  border-radius: 4px !important;
+  padding: 5px !important;
+}
+.dark .rti--container span,
+.dark .rti--container input {
+  background: #444444;
+  color: white;
+}
+
+/* Overlay Admin Sidebar */
+@media (min-width: 1023px) {
+  .hs-overlay-backdrop {
+    display: none;
+  }
+}
